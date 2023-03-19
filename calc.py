@@ -11,7 +11,7 @@ while True:
     xMenos = -b - (delta ** 1/2) / 2*a
     eqPrimeiro = -c/b
 
-    if a > 0:
+    if a > 0 or a < 0:
         if delta > 0:
             print("Delta > 0, logo, a equação possui 2 raízes reais.")
             print(f'Delta = {delta}')
